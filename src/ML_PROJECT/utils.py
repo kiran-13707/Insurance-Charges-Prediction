@@ -14,7 +14,7 @@ PASSWORD=os.getenv("password")
 DB=os.getenv("db")
 
 def read_sql_data():
-    print("ENV DATA :- ",HOST, USER, PASSWORD, DB)
+    print("ENV DATA :- ", HOST, USER, PASSWORD, DB)
     logger.logging.info("Start a reading Data From MYSQL----")
     try:
         logger.logging.info('Try to Connect My sql')
